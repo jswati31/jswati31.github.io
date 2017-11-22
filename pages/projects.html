@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Swati</title>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
+      <link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
+      <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
+      <link rel="stylesheet" type="text/css" href="../theme/css/icons.css"/>
+      <link rel="stylesheet" type="text/css" href="../theme/css/styles.css"/>
+      <meta charset="utf-8" />
+  </head>
+
+  <body id="index">
+    <!-- header -->
+    <header class="siteheader">
+      <!-- site image -->
+        <div class= "siteimage">
+          <a class="nodec" href=/images/img.jpg>
+            <img width="200" height="200" src=/images/img.jpg>
+          </a>
+        </div>
+
+      <div class = "sitebanner">
+        <h1><a class="sitetitle nodec" href="..">Swati</a></h1>
+        <h3 class ="sitesubtitle"></h3>
+        <!-- nav -->
+        <nav class="menu">
+          <ul>
+            <!-- menu items-->
+              <li><a class="nodec" href="/index.html">About</a></li>
+              <li><a class="nodec" href="/pages/academics.html">Academics</a></li>
+              <li><a class="nodec" href="/pages/projects.html">Projects</a></li>
+              <li><a class="nodec" href="/pages/publications.html">Publications</a></li>
+            <!--pages-->
+            <!-- services icons -->
+          </ul>
+        </nav>
+      </div> <!-- sitebanner -->
+    </header>
+
+    <!-- content -->
+<div class="content">
+  <div class="article">
+    <h1>Projects</h1>
+<div class="section" id="research">
+<h2>Research Projects</h2>
+<ol class="arabic simple">
+<li><u>Automatic Karyotyping of Human chromosomes</u>: Human chromosome analysis is an essential task in the cytogenetics, especially in diagnosis of various birth defects and genetic syndromes, parental screening and cancer pathology research. The process of karyotyping is usually carried out manually by expert clinics who initially identifies each chromosome in the picture using hierarchical chromosome identification and then using their expert knowledge, they identify the type of chromosome and then place them in the specific locations in the karyotye. We have automate this step of classifying the chromosome to various classes using Deep neural networks which, in our knowledge, was never implemented before. At present we are trying to improve the accuracy of classification as high accuracy is an essential requirement due to criticality of the domain. In addition, we are trying domain adaptation between various dataset images observed under microscopes of different dimensions.
+<p>Tools used : Python, Keras, Theano </p>
+</li>
+<li><u>Extracting information from Document Images</u>: Manufacturing units conduct the regular inspection of their machines in order to detect any faults. After conducting the inspections, the engineers mark the faulty zones and type of fault using handwritten arrows and text in a constant pattern on the standardized inspection sheet which is then camera scanned. Furthermore, these sheets are then read manually by a team to maintain a log of the errors in their systems. Due to the need of experts, first step of marking the faults on inspection sheets cannot be automated. But the next step of reading the data and maintaining the log is quite time consuming and thus, requires automation. Hence, we proposed a pipeline to automate this step by utilizing the pattern involved. Our pipeline consistes of various stages like localising the arrows, mapping between faulty zones and types, recognition of fault type code etc. which are implemented using various Computer vision and Deep learning techniques. Currently, our main focus is on last stage i.e., improving the handwritten text recognition stage from the documents and then pushing this data from sheets to log files.
+<p>Tools used : Python, Keras, Theano </p>
+</li>
+</ol>
+</div>
+<div class="section" id="curricular">
+<h2>Curricular</h2>
+<p>Projects during my Deep learning coursework at TCS Innovation Labs:</p>
+<ol class="arabic simple">
+<p>Brief explanation of the  various algorithms implemented to solve Kaggle Challenges :  </p>
+<li><u>Expedia Hotel Recommendation</u>: 
+<ul>
+<li>Link : <a class="reference external" href="https://www.kaggle.com/c/expedia-hotel-recommendations"> Expedia Hotel Recommendation</a></li>
+<li>Model implemented : Autoencoder</li>
+<li>Tools used : Python, Keras</li>
+<li>Code : </li>
+</ul>
+</li>
+<li><u>Face Keypoint Detector</u>: 
+<ul>
+<li>Link : <a class="reference external" href="https://www.kaggle.com/c/facial-keypoints-detection"> Face Keypoint Detector</a></li>
+<li>Model implemented : Convolutional Neural Network (CNN)</li>
+<li>Tools used : Python, Keras</li>
+<li>Code : </li>
+</ul>
+</li>
+<li><u>Forecasting Challenge</u>: 
+<ul>
+<li>Link : <a class="reference external" href="https://www.kaggle.com/c/battlefin-s-big-data-combine-forecasting-challenge"> Forecasting Challenge</a></li>
+<li>Model implemented : LSTM</li>
+<li>Tools used : Python, Keras</li>
+<li>Code : </li>
+</ul>
+</li>
+<li><u>Quora Question Pair</u>: 
+<ul>
+<li>Link : <a class="reference external" href="https://www.kaggle.com/c/quora-question-pairs"> Quora Question Pair</a></li>
+<li>Model implemented : Siamese Network (LSTM as base network)</li>
+<li>Tools used : Python, Keras</li>
+<li>Code : </li>
+</ul>
+</li>
+</ol>
+<li><u>Activity Recognition from Videos</u>: 
+<ul>
+<li>Description : The main objective of this project was to recognize the activity performed in the video.
+<li>Model implemented : CNN + LSTM</li>
+<li>Tools used : Python, Keras</li>
+<li>Code : </li>
+</ul>
+</li>
+</ol>
+<p>Projects which formed a part of my graduate requirements:</p>
+<ol class="arabic simple">
+<li><u>Shadow Removal and automatic segmentation in OCT images of Optic nerve head</u>: Segmentation of human optic nerve head (ONH) in Optical Coherence Tomography (OCT) images becomes difficult when shadow appear due to presence of blood vessels. We aim to improve the quality of OCT images by removal of shadows and then automatically segmenting the retinal layer of interest in Spectral domain OCT using graph theory and dynamic programming. After extraction of choroid layer using segmentation and SSIM techniques, we focused our interest to extract the blood vessels present in it.
+<p>Tools used: MATLAB</p>
+</li>
+</ol>
+</div>
+  </div>
+</div>
+
+    <!-- footer -->
+    <footer>
+      <p>
+        © Swati.
+        Generated by <a href= "http://docs.getpelican.com/">Pelican</a> with a tweaked
+        <a href="http://github.com/porterjamesj/crowsfoot">crowsfoot</a> theme.
+      </p>
+    </footer>
+  </body>
+</html>
