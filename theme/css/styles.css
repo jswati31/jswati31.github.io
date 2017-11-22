@@ -110,9 +110,9 @@ body {
 
 a { 
     /* Original generic link styling, greyish and underlined.*/
-    color: #2E2E2E;
+    color: #0000CD;
     text-decoration: underline;
-    /*Modified to be pinkish*/
+    /*Modified to be pinkish #2E2E2E*/
 /*    color: #FF0099;
     text-decoration: none;*/
     -o-transition:color .2s ease-in-out;
