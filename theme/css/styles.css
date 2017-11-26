@@ -49,7 +49,7 @@ body {
     font-weight: 300;
     font-size: 2.5em;
     font-variant: normal;
-    color:#A52A2A;/*Pink*/
+    color:#F08080;/*Pink*/
 	padding-left: 10px; /* Hack to dodge :hover issue. */
 	padding-right: 10px;
     position: relative; /* Hack to dodge :hover issue. */
@@ -111,7 +111,7 @@ body {
 a { 
     /* Original generic link styling, greyish and underlined.*/
     color: #4682B4;
-    text-decoration: underline;
+    text-decoration: none;
     /*Modified to be pinkish*/
 /*    color: #FF0099;
     text-decoration: none;*/
