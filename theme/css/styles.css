@@ -132,7 +132,7 @@ a:hover { /* Hover style*/
     -webkit-transition:color .2s ease-in-out;
     -moz-transition:color .2s ease-in-out;
     transition:color .2s ease-in-out;
-    color: #3300FF; /*Hover color blue*/
+    color: #4682B4; /*Hover color blue*/
 }
 
 /* Generic to all content. */
