@@ -110,7 +110,7 @@ body {
 
 a { 
     /* Original generic link styling, greyish and underlined.*/
-    color: #2E2E2E;
+    color: #4682B4;
     text-decoration: underline;
     /*Modified to be pinkish*/
 /*    color: #FF0099;
@@ -132,7 +132,7 @@ a:hover { /* Hover style*/
     -webkit-transition:color .2s ease-in-out;
     -moz-transition:color .2s ease-in-out;
     transition:color .2s ease-in-out;
-    color: #4682B4; /*Hover color blue*/
+    color: #3300FF; /*Hover color blue*/
 }
 
 /* Generic to all content. */
