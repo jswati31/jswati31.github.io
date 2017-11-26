@@ -110,7 +110,7 @@ body {
 
 a { 
     /* Original generic link styling, greyish and underlined.*/
-    color: #4682B4;
+    color: #BA55D3;
     text-decoration: none;
     /*Modified to be pinkish*/
 /*    color: #FF0099;
@@ -123,7 +123,7 @@ a {
 
 .nodec {
     /* Links that aren't just in content areas shouldn't be underlined */
-    text-decoration: bold;
+    text-decoration: none;
    /*color: #2E2E2E;*/
 }
 
