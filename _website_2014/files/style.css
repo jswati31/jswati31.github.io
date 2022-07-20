@@ -672,7 +672,7 @@ img.wp-smiley,
 
 .wp-caption.alignleft + ul,
 .wp-caption.alignleft + ol  {
-	list-style-position: inside;
+	list-style-position: initial;
 }
 
 
