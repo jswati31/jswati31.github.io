@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92339885-fac8-4a65-9178-4eef6db96624" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/CV.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,11 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/swatijindal/Documents/webpage/jswati31.github.io&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +50,7 @@
       <workItem from="1689545972327" duration="598000" />
       <workItem from="1689561300518" duration="598000" />
       <workItem from="1689571770717" duration="598000" />
-      <workItem from="1692576484874" duration="247000" />
+      <workItem from="1692576484874" duration="673000" />
     </task>
     <servers />
   </component>
